@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact img {
+  width: 5%;
+  max-width: 30px;
+  height: auto;
+}
