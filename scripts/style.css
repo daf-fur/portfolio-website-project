@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 
-.contact img {
+.contact img,
+.projects img {
   width: 5%;
   max-width: 30px;
   height: auto;
