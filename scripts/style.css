@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 3%;
+}
 body {
   background-color: #f3f3f2;
   color: #100d08;
@@ -14,6 +18,17 @@ body {
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+}
+
+.content {
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f3f3f2;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
 }
 
 p {
@@ -28,3 +43,5 @@ img {
   max-width: 30px;
   height: auto;
 }
+
+
