@@ -1,18 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
+:root {
+  --font-body: "Geist", sans-serif;
+  --font-accent: "Lora", serif;
+  --color-bg: #f3f3f2;
+  --color-text: #18181b;
+  --color-border: #333;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  --font-body: "Geist", sans-serif;
-  --font-accent: "Lora", serif;
-  --color-bg: #f3f3f2;
-  --color-text: #100d08;
-  --color-border: #333;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +27,12 @@ body {
   font-weight: 500;
   font-style: normal;
   padding: 2rem;
+}
+
+a {
+  color: var(color--text);
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 h1 {
@@ -40,27 +50,13 @@ h4 {
 }
 
 .content {
-  font-size: 30px;
-  border: 2px solid #333;
-  border-radius: 10px;
-  background-color: #f3f3f2;
-  padding: 2rem;
-  margin: 2rem auto;
-  width: 70%;
-  min-height: 80vh;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 img {
   width: 5%;
   max-width: 30px;
   height: auto;
-}
-
-a {
-  color: var(color--text);
-  text-decoration: none;
-  transition: color 0.2s ease;
 }
 
 a:hover {
