@@ -9,80 +9,83 @@
 </head>
 
 <body>
-    <header>
-        <h1>Hello, I'm Ralph</h1>
-    </header>
 
-    <main>
+    <main class="split-layout">
+        <div class="left-side">
+            <img src="img/profile-example.jpg" alt="My picture">
+        </div>
 
-        <section id="about" class="content">
-            <article>
-                <h2>About Me</h2>
-                <div class="about-image">
-                    <img src="img/sample-picture.jpg" alt="My picture">
+        <div class="right-side">
+            <header>
+                <h1>Hello, I'm Ralph</h1>
+            </header>
+
+            <section id="about" class="content">
+
+                <article>
+                    <h2>About Me</h2>
+                    <p>
+                        Web Developer. I like to build websites that improve other people's lives. I enjoy listening to
+                        music
+                        and
+                        playing the guitar.
+                    </p>
+                </article>
+            </section>
+
+            <section id="contact" class="content">
+                <article>
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>
+                            <a href="https://x.com/duckling_50" target="_blank" aria-label="Twitter profile">
+                                <img src="img/twitter.png" alt="Twitter logo"></a>
+                        </li>
+                        <li>Email: <a href="mailto:olarteralphanthony@yahoo.com">olarteralphanthony@yahoo.com</a></li>
+                        <li>Phone: <a href="tel:+123456789">(123) 456-789</a></li>
+                    </ul>
+                </article>
+            </section>
+
+            <section id="skills" class="content">
+                <h2>Skills</h2>
+                <p>HTML, CSS, JavaScript, Python, Java</p>
+            </section>
+
+            <section id="project" class="content">
+                <h2>Projects</h2>
+
+                <div class="project-list">
+                    <article>
+                        <h3>Food Delivery App</h3>
+                        <p>
+                            Connects users to restaurants, allowing them to order food for delivery.
+                        </p>
+                    </article>
+
+                    <article>
+                        <h3>Music Translator</h3>
+                        <p>
+                            Transcripts music into musical notes.
+                        </p>
+                    </article>
                 </div>
-                <p>
-                    Web Developer. I like to build websites that improve other people's lives. I enjoy listening to
-                    music
-                    and
-                    playing the guitar.
-                </p>
-            </article>
-        </section>
 
-        <section id="contact" class="content">
-            <article>
-                <h2>Contact</h2>
+                <a href="https://github.com/daf-fur" target="_blank"><img src="img/github.png" alt="Github"></a>
+            </section>
+
+            <section id="education" class="content">
+                <h2>Education</h2>
+                <h3>Westfield High School (2020-2024) - Virginia</h3>
+                <p>(3.97 Weighted GPA)</p>
+                <h3>Northern Virginia Community College (2024-2026) </h3>
+                <h4>College-level courses</h4>
                 <ul>
-                    <li>
-                        <a href="https://x.com/duckling_50" target="_blank" aria-label="Twitter profile">
-                            <img src="img/twitter.png" alt="Twitter logo"></a>
-                    </li>
-                    <li>Email: <a href="mailto:olarteralphanthony@yahoo.com">olarteralphanthony@yahoo.com</a></li>
-                    <li>Phone: <a href="tel:+123456789">(123) 456-789</a></li>
+                    <li>Introduction to Problem Solving and Programming (Python) </li>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Analysis of Algorithms</li>
                 </ul>
-            </article>
-        </section>
-
-        <section id="skills" class="content">
-            <h2>Skills</h2>
-            <p>HTML, CSS, JavaScript, Python, Java</p>
-        </section>
-
-        <section id="project" class="content">
-            <h2>Projects</h2>
-
-            <div class="project-list">
-                <article>
-                    <h3>Food Delivery App</h3>
-                    <p>
-                        Connects users to restaurants, allowing them to order food for delivery.
-                    </p>
-                </article>
-
-                <article>
-                    <h3>Music Translator</h3>
-                    <p>
-                        Transcripts music into musical notes.
-                    </p>
-                </article>
-            </div>
-
-            <a href="https://github.com/daf-fur"><img src="img/github.png" alt="Github"></a>
-        </section>
-
-        <section id="education" class="content">
-            <h2>Education</h2>
-            <h3>Westfield High School (2020-2024) - Virginia</h3>
-            <p>(3.97 Weighted GPA)</p>
-            <h3>Northern Virginia Community College (2024-2026) </h3>
-            <h4>College-level courses</h4>
-            <ul>
-                <li>Introduction to Problem Solving and Programming (Python) </li>
-                <li>Object Oriented Programming</li>
-                <li>Data Structures and Analysis of Algorithms</li>
-            </ul>
-        </section>
+            </section>
 
     </main>
 
@@ -91,7 +94,7 @@
     <footer>
         <p>© 2025 Ralph Olarte</p>
     </footer>
-
+    </div>
 
 </body>
 
